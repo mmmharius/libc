@@ -41,9 +41,13 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int     ft_putchar(int c);
 void	ft_putchar_fd(char c, int fd);
 int     ft_putstr(char *str);
-void	ft_putstr_fd(char const *s, int fd);
+int     ft_putstr_fd(char *str, int fd);
+int     ft_putptr(unsigned long long addr, int fd);
+int     ft_puthex(unsigned int num, char format);
+int     ft_putnbr(int n);
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+int     ft_putnsigned(unsigned int n);
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 int     ft_printf(const char *str, ...);
 

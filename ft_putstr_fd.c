@@ -1,12 +1,16 @@
-
 #include "libc.h"
 
-void	ft_putstr_fd(char const *s, int fd)
+int	ft_putstr_fd(char *str, int fd)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
-	while (s[i])
+	if (!str)
+		return (write(fd, "(null)", 6));
+	while (str[i])
+	{
+		write(fd, &str[i], 1);
 		i++;
-	write(fd, s, i);
+	}
+	return (i);
 }

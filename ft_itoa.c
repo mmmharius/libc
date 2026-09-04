@@ -1,5 +1,5 @@
 
-#include "libft.h"
+#include "libc.h"
 
 static size_t	count_size(long nb)
 {

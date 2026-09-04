@@ -1,5 +1,5 @@
 
-#include "libft.h"
+#include "libc.h"
 
 static void	print_nb(long nb, int fd)
 {

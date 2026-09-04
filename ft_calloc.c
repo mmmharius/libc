@@ -1,5 +1,5 @@
 
-#include "libft.h"
+#include "libc.h"
 
 static void	*ft_memalloc(size_t size)
 {

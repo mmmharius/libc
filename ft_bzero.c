@@ -1,5 +1,5 @@
 
-#include "libft.h"
+#include "libc.h"
 
 void	ft_bzero(void *s, size_t n)
 {
