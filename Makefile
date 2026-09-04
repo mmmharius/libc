@@ -1,6 +1,6 @@
 CC			= cc
 CFLAGS		= -Wall -Wextra -Werror
-NAME		= lic.a
+NAME		= libc.a
 INCFOLDER	= /
 SRCFOLDER	= /
 SRCS		= ft_isalpha.c ft_toupper.c ft_isdigit.c ft_tolower.c ft_isalnum.c \
